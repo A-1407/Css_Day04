@@ -1,0 +1,36 @@
+.menu:hover ul{
+    display: block;
+}
+
+.menu ul{
+     display: none; 
+    background-color:darkgrey;
+    
+}
+
+.btn-menu{
+    font-size: 2rem;
+    background-color: black;
+    color: aliceblue;
+    width:10rem;
+}
+
+.icerik{
+    font-size:25px ;
+    width: 6rem;
+    margin: 0;
+    padding:0 60px 0 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 0 0 0 15px;
+    color: black;
+}
+
+.menu li:hover a{
+    color: white;
+}
+
+
+

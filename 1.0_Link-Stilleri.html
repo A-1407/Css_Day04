@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      a:link {
+        /* Ziyaret edilmemis Link'ler demek */
+        color: green;
+        text-decoration: none;
+      }
+
+      a:visited {
+        /* ziyaret edilmis Linkler demek */
+        color: red;
+      }
+
+      a:hover {
+        /* Bir Linkin uzerine gelebilmek demek */
+        color: blue;
+        text-decoration: underline;
+        background-color: aquamarine;
+        font-size: 1.3rem;
+      }
+
+      a:active {
+        color: crimson;
+        background-color: chartreuse;
+      }
+      ul.menu:hover {
+        background-color: darkorange;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="menu">
+      <li><a href="#home">Ana Sayfa</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Iletisim</a></li>
+    </ul>
+  </body>
+</html>

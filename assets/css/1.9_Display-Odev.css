@@ -1,0 +1,30 @@
+nav.menu{
+background-color: yellow;
+
+}
+
+ul.about{ 
+list-style-type: "👑";
+    text-align: center;
+}
+
+ul.about li{
+    display: inline-block;
+    
+    
+}
+
+ul.about li a{
+    padding: 2rem;
+    display: block;
+    font-size: 25px;
+}
+
+nav.menu a:hover{
+    background-color: blue;
+    color: yellow;
+
+}
+
+
+    

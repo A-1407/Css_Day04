@@ -1,0 +1,45 @@
+input [type="text"] {
+    background-color: rgb(226,226,226);
+    border:none;
+    padding: 0.5rem 1rem;
+}
+
+input:focus [type="text"]{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+/* [ type="text"] 
+Bu Sekilde YAzdigimiz da  yada text yerine baska seyler ekledigimiz de
+sadece O tag etkileniyor bir nevi claas yapmis sayiliyoruz*/
+
+
+.liste li:first-child {
+    font-weight: bold;
+}
+
+/* .liste li:nth-child(3){
+    color: brown;
+} */
+
+
+
+.price-list tr:nth-child(odd){
+    
+    background-color: aquamarine;
+} 
+
+/* 
+.price-list td:nth-child(){
+
+    color: chartreuse;
+} */
+
+.price-list tr:nth-child(even) td:last-child{
+    color:white;
+    background-color: blueviolet;
+}
+
+
+
+
