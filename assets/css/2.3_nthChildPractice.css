@@ -1,0 +1,33 @@
+.sayfa{
+    width: 1200px;
+    margin: auto;
+}
+
+.Kutu{
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    display: inline-block;
+    padding: 1rem;
+    margin: 10px;
+    font-size: 2rem;
+    text-align: center;
+    color: aliceblue;
+    border:5px solid #000;
+    line-height:  150px;;   
+}
+
+.Kutu:nth-child(n):nth-child(even):nth-child(-n+5){
+    background-color: aqua;
+}
+
+
+.Kutu:nth-child(n):nth-child(odd):nth-child(-n+5){
+    background-color: rgb(2, 147, 147);
+}
+
+.Kutu:nth-child(n+5):nth-child(even){
+    color: blueviolet;
+    background-color: rgb(243, 243, 243);
+}
+

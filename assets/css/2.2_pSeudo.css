@@ -1,0 +1,45 @@
+.list li:first-child{
+    background-color:green;
+}
+
+.list li:last-child{
+    background-color: lightblue;
+}
+.list li:nth-child(3){
+    background-color:lime ;
+ }
+
+ /* ul li :nth-child(-n+8){
+
+ }
+ !!! bu formul listenin 8. elemanindan baslayip geriye dogru secer 
+
+ */
+
+ .about li:nth-child(n+4):nth-child(even):nth-child(-n+10){
+    background-color: aqua;
+ }
+
+ .about li:nth-child(n+4):nth-child(odd):nth-child(-n+10){
+    background-color:black;
+ }
+
+ /* 
+  .about li:nth-child(n+4):nth-child(even):nth-child(-n+10){
+    background-color: aqua;
+ }
+ !!Bu Formulde istenilen satirdan baslayip istenilen satira kadar kisitlayabiliyoruz
+ */
+
+ div:nth-of-type(4){
+    background-color: blueviolet;
+ }
+
+ /* 
+ 
+ div:nth-of-type(4){
+    background-color: blueviolet;
+ }
+
+ !!!!! Bu formulde de araya hamgi tag girerse girsin  sectigimiz tag hedefliyor
+ */
